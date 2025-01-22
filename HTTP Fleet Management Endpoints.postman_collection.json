@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a1d502fa-b108-406a-aacf-ae70ea3019ad",
+		"name": "HTTP Fleet Management Endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39358908"
+	},
+	"item": [
+		{
+			"name": "Test-Azure-Function",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Server to DB request",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
