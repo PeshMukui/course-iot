@@ -1,0 +1,12 @@
+{
+    "bindings": [
+        {
+            "type": "eventHubTrigger",
+            "name": "event-namespace-fleet",
+            "direction": "in",
+            "eventHubName": "event-namespace-fleet",
+            "cardinality": "many",
+            "consumerGroup": "$Default"
+        }
+    ]
+}

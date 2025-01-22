@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "node",
+        "IoTHubConnection": "IYhPMicA8g86R8pjz8IlNxDrwjJs8ljGVAIoTDcBGJk="
+
+}
+}  
